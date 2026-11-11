@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portofolio Profesional</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--text:#1a1d23;--muted:#5b6472;--accent:#2563eb;--line:#e3e6ec;--tag:#e8effd;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1218;--card:#181c25;--text:#eceff4;--muted:#9aa4b5;--accent:#6b9bff;--line:#262c39;--tag:#1f2a44;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1218;--card:#181c25;--text:#eceff4;--muted:#9aa4b5;--accent:#6b9bff;--line:#262c39;--tag:#1f2a44;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+header{padding:72px 0 40px}
+.eyebrow{color:var(--accent);font-weight:600;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:clamp(1.9rem,5.5vw,3rem);line-height:1.2;margin:.3em 0}
+.lead{color:var(--muted);font-size:1.05rem;max-width:650px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+nav a{padding:8px 14px;border:1px solid var(--line);border-radius:8px;color:var(--text);text-decoration:none;font-size:.9rem;background:var(--card)}
+nav a:hover{border-color:var(--accent);color:var(--accent)}
+section{padding:36px 0}
+h2{font-size:1.45rem;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 18px;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card h3{margin:0 0 6px;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.93rem}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{background:var(--tag);color:var(--accent);padding:6px 12px;border-radius:6px;font-size:.87rem;font-weight:500}
+ul.tl{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+ul.tl li{padding:0 0 20px 18px;position:relative}
+ul.tl li::before{content:"";position:absolute;left:-6px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+ul.tl b{display:block}
+ul.tl span{color:var(--muted);font-size:.93rem}
+footer{padding:40px 0 56px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);margin-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Portofolio profesional</div>
+  <h1>Pengembang Web, Dukungan IT, dan Junior Software Tester</h1>
+  <p class="lead">Saya berfokus pada pengembangan website dan aplikasi, administrasi jaringan, serta pengujian perangkat lunak. Saya telah mengikuti Samsung Innovation Campus dan Lomba Kompetensi Siswa tingkat provinsi.</p>
+  <nav>
+    <a href="#layanan">Layanan</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#proyek">Proyek</a>
+    <a href="#keahlian">Keahlian</a>
+  </nav>
+</header>
+
+<section id="layanan">
+  <h2>Layanan</h2>
+  <p class="sub">Bidang pekerjaan yang dapat saya tangani.</p>
+  <div class="grid">
+    <div class="card"><h3>Website Bisnis</h3><p>Perancangan dan pembuatan website untuk usaha, mencakup tampilan profesional, sistem admin, dan penerapan di hosting.</p></div>
+    <div class="card"><h3>Dukungan IT</h3><p>Konfigurasi jaringan, pemecahan masalah, pengaturan server dan hosting, serta pendampingan penggunaan sistem.</p></div>
+    <div class="card"><h3>Website dan Software AI</h3><p>Pengembangan aplikasi web dan perangkat lunak yang memanfaatkan kecerdasan buatan untuk membantu pekerjaan.</p></div>
+    <div class="card"><h3>Junior QA / Software Tester</h3><p>Pengujian fungsi aplikasi, pencarian dan pelaporan bug, serta pemeriksaan kualitas sebelum rilis.</p></div>
+  </div>
+</section>
+
+<section id="pengalaman">
+  <h2>Pengalaman</h2>
+  <p class="sub">Kegiatan dan kompetisi yang telah diikuti.</p>
+  <ul class="tl">
+    <li><b>Samsung Innovation Campus Batch 8</b><span>Mengikuti program di bidang IoT dan mengerjakan study case tahap 2 dengan simulasi Wokwi, ESP32, dan MQTT.</span></li>
+    <li><b>Samsung Innovation Campus Batch 7</b><span>Peserta program pengembangan kompetensi teknologi Samsung Innovation Campus.</span></li>
+    <li><b>LKS Dikmen Jawa Timur, bidang IT Network Systems Administration</b><span>Peserta Lomba Kompetensi Siswa tingkat provinsi, dengan materi Linux, jaringan Cisco, dan Windows.</span></li>
+    <li><b>Kompetisi jaringan MikroTik</b><span>Mengikuti tes tertulis online tahap 1 pada 2 September 2026, dengan materi TCP/IP, routing, firewall, queue, dan tunnel.</span></li>
+    <li><b>Pengajar materi LKS</b><span>Menyusun dan membagikan materi IT Network Systems Administration kepada adik kelas secara bertahap dari dasar.</span></li>
+  </ul>
+</section>
+
+<section id="proyek">
+  <h2>Proyek</h2>
+  <p class="sub">Sebagian proyek yang telah dan sedang dikerjakan.</p>
+  <div class="grid">
+    <div class="card"><h3>SPOTPULSE</h3><p>Platform peta untuk menemukan kafe terdekat, terdiri dari portal pengguna, admin, dan pemilik kafe dengan Node.js, Express, dan MySQL.</p></div>
+    <div class="card"><h3>SIAP Absensi</h3><p>Sistem absensi panitia berbasis QR dengan peran admin, panitia, dan pengguna. Direncanakan menjadi aplikasi Android dengan Flutter.</p></div>
+    <div class="card"><h3>TKJ Learning Center</h3><p>Sistem pembelajaran berbasis PHP dan MySQL untuk IT Network Systems Administration, dilengkapi panel admin dan materi.</p></div>
+    <div class="card"><h3>ClassBook Manager</h3><p>Tutorial interaktif bergambar untuk pengisian biodata kelas dan siswa.</p></div>
+    <div class="card"><h3>CCTV ESP32-CAM</h3><p>Kamera pengawas berbasis ESP32-CAM yang terhubung ke Blynk, dengan IP statis dan akses dari luar jaringan.</p></div>
+    <div class="card"><h3>Kacamata Inventaris Pintar</h3><p>Rancangan perangkat IoT untuk pendataan inventaris melalui pemindaian QR dan pengiriman data lewat MQTT.</p></div>
+    <div class="card"><h3>Platform CBT Moodle</h3><p>Pemasangan Moodle pada shared hosting cPanel sebagai sistem ujian berbasis komputer.</p></div>
+    <div class="card"><h3>Migrasi Web Polling</h3><p>Pemindahan proyek polling angkatan dari Vercel dan Supabase ke hosting mandiri.</p></div>
+    <div class="card"><h3>Server GTA SA-MP</h3><p>Pembangunan server dengan open.mp dan pengembangan gamemode menggunakan Pawn.</p></div>
+  </div>
+</section>
+
+<section id="keahlian">
+  <h2>Keahlian</h2>
+  <p class="sub">Teknologi dan bidang yang saya kuasai.</p>
+  <div class="tags">
+    <span>MikroTik RouterOS</span><span>Cisco</span><span>Linux</span><span>Windows Server</span>
+    <span>PHP</span><span>MySQL</span><span>Node.js</span><span>JavaScript</span>
+    <span>cPanel</span><span>ESP32</span><span>MQTT</span><span>Flutter</span>
+    <span>Pengujian Perangkat Lunak</span><span>Integrasi AI</span>
+  </div>
+</section>
+
+<footer>Terakhir diperbarui 11 November 2026.</footer>
+</div>
+</body>
+</html>
